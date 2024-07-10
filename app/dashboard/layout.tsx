@@ -1,11 +1,5 @@
-import type { Metadata } from 'next';
 import SideNav from '@/app/ui/dashboard/sidenav';
 
-export const metadata: Metadata = {
-    title: 'Acme Dashboard',
-    description: 'Acme Dashboard for the web app administrators.',
-}
- 
 export default function Layout({ children }: { children: React.ReactNode }) {
     return (
         <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
